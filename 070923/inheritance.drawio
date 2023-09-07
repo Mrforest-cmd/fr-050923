@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T17:26:30.131Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="z5XNYI5atjp45eINSjDx" version="21.6.1" type="device">
+<mxfile host="app.diagrams.net" modified="2023-09-07T17:31:28.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="VL3hGlZSHslaxR3SiFYR" version="21.6.1" type="device">
   <diagram name="Страница 1" id="4mM0lcwc6HceldsLJrzj">
     <mxGraphModel dx="1816" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="II5tkj_CJoYofg9basmW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="II5tkj_CJoYofg9basmW-3" target="II5tkj_CJoYofg9basmW-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="II5tkj_CJoYofg9basmW-3" value="Мова" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="II5tkj_CJoYofg9basmW-3" value="Будівля" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="II5tkj_CJoYofg9basmW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="II5tkj_CJoYofg9basmW-4" target="II5tkj_CJoYofg9basmW-10">
@@ -19,18 +19,18 @@
         <mxCell id="II5tkj_CJoYofg9basmW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="II5tkj_CJoYofg9basmW-4" target="II5tkj_CJoYofg9basmW-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="II5tkj_CJoYofg9basmW-4" value="Письменність" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="II5tkj_CJoYofg9basmW-4" value="Дерев&#39;яна халупа" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="II5tkj_CJoYofg9basmW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="II5tkj_CJoYofg9basmW-5" target="II5tkj_CJoYofg9basmW-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="280" />
+              <mxPoint x="620" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="II5tkj_CJoYofg9basmW-5" value="Розмовна частина" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="II5tkj_CJoYofg9basmW-5" value="Шалаш" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="II5tkj_CJoYofg9basmW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="II5tkj_CJoYofg9basmW-8" target="II5tkj_CJoYofg9basmW-18">
           <mxGeometry relative="1" as="geometry">
@@ -48,11 +48,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="II5tkj_CJoYofg9basmW-8" value="Телеграми" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="II5tkj_CJoYofg9basmW-8" value="Багато-поверховий дім" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="II5tkj_CJoYofg9basmW-9" value="Спілкування" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="II5tkj_CJoYofg9basmW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="II5tkj_CJoYofg9basmW-9" target="II5tkj_CJoYofg9basmW-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="II5tkj_CJoYofg9basmW-9" value="Палатка" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="II5tkj_CJoYofg9basmW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="II5tkj_CJoYofg9basmW-10" target="II5tkj_CJoYofg9basmW-14">
           <mxGeometry relative="1" as="geometry" />
@@ -60,20 +63,23 @@
         <mxCell id="II5tkj_CJoYofg9basmW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="II5tkj_CJoYofg9basmW-10" target="II5tkj_CJoYofg9basmW-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="II5tkj_CJoYofg9basmW-10" value="Книги" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="II5tkj_CJoYofg9basmW-10" value="Частний одно-поверховий дім" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="II5tkj_CJoYofg9basmW-14" value="Журнали" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="II5tkj_CJoYofg9basmW-14" value="Підземний бункер" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-60" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="II5tkj_CJoYofg9basmW-16" value="Електронні книги" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="II5tkj_CJoYofg9basmW-16" value="Двигомий дім" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="II5tkj_CJoYofg9basmW-18" value="Газети" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="II5tkj_CJoYofg9basmW-18" value="Панелька" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="II5tkj_CJoYofg9basmW-19" value="Мессенджери" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="II5tkj_CJoYofg9basmW-19" value="Хмарочос" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="II5tkj_CJoYofg9basmW-23" value="Дім на колесах" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
