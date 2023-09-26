@@ -1,0 +1,6 @@
+﻿  260923.cpp
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\260923\260923\260923.cpp(19,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\260923\260923\260923.cpp(20,37): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\260923\260923\260923.cpp(25,46): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\260923\260923\260923.cpp(27,39): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+  260923.vcxproj -> C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\260923\x64\Debug\260923.exe
