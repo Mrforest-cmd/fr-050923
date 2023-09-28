@@ -1,1 +1,1 @@
-# Repo is an archive of lessons.
+# Repo is an archive of lessons. (Check branches)
