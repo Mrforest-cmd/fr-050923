@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\101023\ConsoleApplication1\ConsoleApplication1.cpp(66,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\101023\ConsoleApplication1\ConsoleApplication1.cpp(74,21): warning C4018: <: несоответствие типов со знаком и без знака
+  ConsoleApplication1.vcxproj -> C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\101023\x64\Debug\ConsoleApplication1.exe
