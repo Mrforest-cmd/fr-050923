@@ -1,2 +1,3 @@
 ﻿  121023.cpp
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\121023\121023\121023.cpp(252,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   121023.vcxproj -> C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\121023\x64\Debug\121023.exe
