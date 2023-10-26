@@ -1,0 +1,3 @@
+﻿  261023.cpp
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\261023\261023\261023.cpp(62,20): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  261023.vcxproj -> C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\261023\x64\Debug\261023.exe
