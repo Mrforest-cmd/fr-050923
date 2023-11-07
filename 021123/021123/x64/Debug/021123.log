@@ -1,2 +1,3 @@
 ﻿  021123.cpp
-  021123.vcxproj -> C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\021123\x64\Debug\021123.exe
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\021123\021123\021123.cpp(7,9): warning C4551: в вызове функции отсутствует список аргументов
+LINK : fatal error LNK1168: не удается открыть C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\021123\x64\Debug\021123.exe для записи
