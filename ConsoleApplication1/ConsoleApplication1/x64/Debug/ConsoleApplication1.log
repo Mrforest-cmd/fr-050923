@@ -1,17 +1,2 @@
 ﻿  ConsoleApplication1.cpp
-C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(34,11): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(34,11): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(34,19): error C2238: непредвиденные лексемы перед ";"
-C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(40,20): error C2061: синтаксическая ошибка: идентификатор "Weapon"
-C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(41,15): error C2039: "weapon": не является членом "Player".
-  C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(31,7):
-   см. объявление "Player"
-  
-C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(41,24): error C2065: weapon: необъявленный идентификатор
-C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(49,9): error C2065: weapon: необъявленный идентификатор
-C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(150,9): error C2660: Player::setWeapon: функция не принимает 1 аргументов
-  C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(40,10):
-   см. объявление "Player::setWeapon"
-  C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(150,9):
-  при попытке сопоставить список аргументов "(Glock *)"
-  
+  ConsoleApplication1.vcxproj -> C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
