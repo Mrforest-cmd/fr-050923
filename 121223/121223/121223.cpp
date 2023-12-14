@@ -2,50 +2,114 @@
 #include <cmath>
 #include <algorithm>
 #include <vector>
-#include <map>
+#include <Windows.h>
+#include <string>
 
 using namespace std;
 
-class Student {
-	string name;
-	vector<int> grades;
-
+class do_smth_with_a_string {
+	string line;
 public:
-	Student(string studentName) : name(studentName) {}
+	vector<string> strings;
 
-	
-
-	double calculateAverage() {
-		int sum = 0;
-		for (int grade : grades) {
-			sum += grade;
-		}
-		return sum / grades.size();
+	do_smth_with_a_string(string str) {
+		this->line = str;
 	}
 
-	const string& getName() const {
-		return name;
+	auto get_amount_of_words() {
+
+	}
+
+	auto get_longest_word() {
+
+	}
+
+	void cout_lengths_of_words() {
+
+	}
+
+	void cout_words_and_duplicates_amount() {
+
 	}
 };
 
 int main() {
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
 	srand(static_cast<unsigned>(time(NULL)));
 
-	vector<Student> students{
-		Student("John"),
-		Student("Mary"),
-		Student("Bob")
+	string term;
+	string line;
+
+	getline(cin, line);
+
+	vector<string> strings;
+
+	auto amount_of_words = [&strings](string line) {
+		string temp = "";
+		for (char i : line) {
+			if (i != ' ' && i != ',' && i != '.') {
+				temp += i;
+			}
+			else {
+				strings.push_back(temp);
+				temp.clear();
+			}
+		}
+		if (!temp.empty()) {
+			strings.push_back(temp);
+		}
+
+		return strings.size();
 	};
-	map<string, Student> students;
-	auto addGrade = [&students](const string& name, int grade) {students[name].grades.push_back(grade);};
 
-	sort(students.begin(), students.end(), [](const Student& a, const Student& b) { return(a.calculateAverage() > b.calculateAverage()); });
+	auto the_longest_word = [&strings](string line) {
+		string longest_word;
+		for (string word : strings) {
+			if (word.length() > longest_word.length()) {
+				longest_word = word;
+			}
+		}
+		return longest_word;
+	};
+	
 
-	for (const auto& student : students) {
-		cout << "Student: " << student.getName() << ", Average: " << student.calculateAverage() << endl;
+	cout << "Amount of words - " << amount_of_words(line) << endl;
+	cout << "The longest word - " << the_longest_word(line) << ", length is - " << the_longest_word(line).length() << "." << endl;
+
+	for (string word : strings) {
+		cout << word.length() << " ";
 	}
-}
+	cout << endl;
 
+	sort(strings.begin(), strings.end(), [](const string& a, const string& b) {return a < b; });
+
+	
+
+	string prev;
+	int count=1;
+
+	for (string word : strings) {
+		if (word != prev) {
+			if (prev != "") {
+				cout << prev << ": " << count << endl;
+			}
+			prev = word;
+			count = 1;
+		}
+		else {
+			count++;
+		}
+	}
+	cout << prev << ": " << count << endl;
+
+}
+/*for (string word : strings) {
+		if (word != term) {
+			cout << word << " ";
+			term = word;
+		}
+	}*/
 
 
 
@@ -78,6 +142,84 @@ int main() {
 
 
 /*
+* 
+auto calculate = [](double number1, double number2, char operation) {
+		switch (operation) {
+		case '+':
+			return number1 + number2;
+		case '-':
+			return number1 - number2;
+		case '*':
+			return number1 * number2;
+		case '/':
+			return number1 / number2;
+		}
+	};
+
+	double num1,num2;
+	char operation;
+
+	cout << "Введіть перше число: ";
+	cin >> num1;
+	cout << "Введіть операцію (+, -, *, /): ";
+	cin >> operation;
+	cout << "Введіть друге число: ";
+	cin >> num2;
+
+	cout << calculate(num1, num2, operation) << endl;
+* 
+for (int i = 0; i < 5;i++) {
+		string input;
+		cin >> input;
+		strings.push_back(input);
+	}
+
+	auto sortbylength = [](string str,string str2) { return str.length() > str2.length(); };
+
+	cout << "\n\n";
+
+	sort(strings.begin(), strings.end(), sortbylength);
+
+	for (string str : strings) {
+		cout << str << endl;
+	}
+* 
+for (unsigned short num : nums) {
+		if (iseven(num)) {
+			cout << num << endl;
+		}
+	}
+* 
+vector<Student> students{
+		Student("John"),
+		Student("Mary"),
+		Student("Bob")
+	};
+	map<string, Student> students;
+	auto addGrade = [&students](const string& name, int grade) {students[name].grades.push_back(grade);};
+* 
+class Student {
+	string name;
+	vector<int> grades;
+
+public:
+	Student(string studentName) : name(studentName) {}
+
+
+
+	double calculateAverage() {
+		int sum = 0;
+		for (int grade : grades) {
+			sum += grade;
+		}
+		return sum / grades.size();
+	}
+
+	const string& getName() const {
+		return name;
+	}
+};
+
 class Town {
 	int floor;
 	int apartments;
