@@ -1,0 +1,3 @@
+﻿  191223.cpp
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\191223\191223\191223.cpp(75,29): warning C4267: return: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+  191223.vcxproj -> C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\191223\x64\Debug\191223.exe
