@@ -1,0 +1,7 @@
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\180124\180124\bin\Debug\180124.exe.config
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\180124\180124\bin\Debug\180124.exe
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\180124\180124\bin\Debug\180124.pdb
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\180124\180124\obj\Debug\180124.csproj.AssemblyReference.cache
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\180124\180124\obj\Debug\180124.csproj.CoreCompileInputs.cache
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\180124\180124\obj\Debug\180124.exe
+C:\Users\lehan\OneDrive\Документы\GitHub\fr-050923\180124\180124\obj\Debug\180124.pdb
