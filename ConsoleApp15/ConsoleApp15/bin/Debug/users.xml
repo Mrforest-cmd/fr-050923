@@ -1,0 +1,9 @@
+<Clients>
+  <user>
+    <email>Meow.com</email>
+    <password>brmrmeow</password>
+    <fullName>MeowmeowMeow</fullName>
+    <birthDate>1907-01-01</birthDate>
+    <phoneNumber>192301</phoneNumber>
+  </user>
+</Clients>

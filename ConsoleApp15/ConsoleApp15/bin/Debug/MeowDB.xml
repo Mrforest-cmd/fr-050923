@@ -1,0 +1,14 @@
+<Clients>
+  <Client>
+    <Pip>Barsik Blohovozka Mihailovich</Pip>
+    <Age>5</Age>
+    <Phone>+380182388</Phone>
+    <ID>1</ID>
+  </Client>
+  <Client>
+    <Pip>Lucya Blohovozka Barsikovna</Pip>
+    <Age>6</Age>
+    <Phone>+380123672</Phone>
+    <ID>2</ID>
+  </Client>
+</Clients>
