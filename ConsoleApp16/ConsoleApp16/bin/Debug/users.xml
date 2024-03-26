@@ -1,2 +1,12 @@
 <Users>
+  <User>
+    <Name>john</Name>
+    <Password>meow</Password>
+    <Email>brrr</Email>
+    <Age>23</Age>
+    <Balance>901239</Balance>
+    <Status>online</Status>
+    <BirthDate>11.11.1111 00:00:00</BirthDate>
+    <Country>amerika</Country>
+  </User>
 </Users>

@@ -140,38 +140,92 @@ namespace ConsoleApp16
         {
             string xmlFilePath = "users.xml";
 
-            if (File.Exists(xmlFilePath))
+            if (!File.Exists(xmlFilePath))
             {
-                Console.WriteLine("File found.");
-
-                Console.WriteLine("\nCreating new user record.");
-                UserOperations.CreateUser(xmlFilePath, "John Doe", "password123", "john@example.com", 30, 1000.0, "Active", new DateTime(1990, 5, 15), "USA");
-
-                Console.WriteLine("\nData after creating new user record:");
-                UserOperations.ReadUsers(xmlFilePath);
-
-                Console.WriteLine("\nEditing user record");
-                UserOperations.EditUser(xmlFilePath, "John Doe", "newpassword", "john.doe@example.com", 31, 1200.0, "Inactive", new DateTime(1990, 5, 16), "Canada");
-
-                Console.WriteLine("\nData after editing user record:");
-                UserOperations.ReadUsers(xmlFilePath);
-
-                Console.WriteLine("\nReading user records with filter 'john':");
-                UserOperations.ReadUsers(xmlFilePath, "john");
-
-                Console.WriteLine("\nDeleting user record");
-                UserOperations.DeleteUser(xmlFilePath, "John Doe");
-
-                Console.WriteLine("\nData after deleting user record:");
-                UserOperations.ReadUsers(xmlFilePath);
-            }
-            else
-            {
-                Console.WriteLine("File not found");
+                Console.WriteLine("File not found. Creating a new XML file.");
                 XmlDocument xmlDoc = new XmlDocument();
                 XmlElement root = xmlDoc.CreateElement("Users");
                 xmlDoc.AppendChild(root);
                 xmlDoc.Save(xmlFilePath);
+            }
+
+            bool continueLoop = true;
+
+            while (continueLoop)
+            {
+                Console.WriteLine("\nChoose an option:");
+                Console.WriteLine("1. Create a new user");
+                Console.WriteLine("2. Edit an existing user");
+                Console.WriteLine("3. Read user data");
+                Console.WriteLine("4. Delete a user");
+                Console.WriteLine("5. Exit");
+
+                string choice = Console.ReadLine();
+
+                switch (choice)
+                {
+                    case "1":
+                        Console.Write("Enter name: ");
+                        string name = Console.ReadLine();
+                        Console.Write("Enter password: ");
+                        string password = Console.ReadLine();
+                        Console.Write("Enter email: ");
+                        string email = Console.ReadLine();
+                        Console.Write("Enter age: ");
+                        int age = int.Parse(Console.ReadLine());
+                        Console.Write("Enter balance: ");
+                        double balance = double.Parse(Console.ReadLine());
+                        Console.Write("Enter status: ");
+                        string status = Console.ReadLine();
+                        Console.Write("Enter birth date (yyyy-MM-dd): ");
+                        DateTime birthDate = DateTime.Parse(Console.ReadLine());
+                        Console.Write("Enter country: ");
+                        string country = Console.ReadLine();
+
+                        UserOperations.CreateUser(xmlFilePath, name, password, email, age, balance, status, birthDate, country);
+                        break;
+
+                    case "2":
+                        Console.Write("Enter the name of the user to edit: ");
+                        string nameToEdit = Console.ReadLine();
+                        Console.Write("Enter new password: ");
+                        string newPassword = Console.ReadLine();
+                        Console.Write("Enter new email: ");
+                        string newEmail = Console.ReadLine();
+                        Console.Write("Enter new age: ");
+                        int newAge = int.Parse(Console.ReadLine());
+                        Console.Write("Enter new balance: ");
+                        double newBalance = double.Parse(Console.ReadLine());
+                        Console.Write("Enter new status: ");
+                        string newStatus = Console.ReadLine();
+                        Console.Write("Enter new birth date (yyyy-MM-dd): ");
+                        DateTime newBirthDate = DateTime.Parse(Console.ReadLine());
+                        Console.Write("Enter new country: ");
+                        string newCountry = Console.ReadLine();
+
+                        UserOperations.EditUser(xmlFilePath, nameToEdit, newPassword, newEmail, newAge, newBalance, newStatus, newBirthDate, newCountry);
+                        break;
+
+                    case "3":
+                        Console.Write("Enter a filter (leave blank for all users): ");
+                        string filter = Console.ReadLine();
+                        UserOperations.ReadUsers(xmlFilePath, filter);
+                        break;
+
+                    case "4":
+                        Console.Write("Enter the name of the user to delete: ");
+                        string nameToDelete = Console.ReadLine();
+                        UserOperations.DeleteUser(xmlFilePath, nameToDelete);
+                        break;
+
+                    case "5":
+                        continueLoop = false;
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid choice. Please try again.");
+                        break;
+                }
             }
         }
     }
