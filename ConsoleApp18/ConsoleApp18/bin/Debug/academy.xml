@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Academy>
+  <Groups>
+    <Group>
+      <Name>Group 1</Name>
+      <Teacher>
+        <FullName>Mike Johnson</FullName>
+      </Teacher>
+      <Students>
+        <Student>
+          <FullName>John Doe</FullName>
+          <Phone>1234567890</Phone>
+          <BirthYear>2000</BirthYear>
+          <ProgrammingGrade>90</ProgrammingGrade>
+          <ThreeDModelingGrade>85</ThreeDModelingGrade>
+          <RoboticsGrade>92</RoboticsGrade>
+        </Student>
+        <Student>
+          <FullName>Jane Smith</FullName>
+          <Phone>0987654321</Phone>
+          <BirthYear>2001</BirthYear>
+          <ProgrammingGrade>88</ProgrammingGrade>
+          <ThreeDModelingGrade>91</ThreeDModelingGrade>
+          <RoboticsGrade>87</RoboticsGrade>
+        </Student>
+      </Students>
+    </Group>
+    <Group>
+      <Name>Group 2</Name>
+      <Teacher>
+        <FullName>Sarah Davis</FullName>
+      </Teacher>
+      <Students>
+        <Student>
+          <FullName>Bob Williams</FullName>
+          <Phone>5551234567</Phone>
+          <BirthYear>1999</BirthYear>
+          <ProgrammingGrade>92</ProgrammingGrade>
+          <ThreeDModelingGrade>89</ThreeDModelingGrade>
+          <RoboticsGrade>90</RoboticsGrade>
+        </Student>
+      </Students>
+    </Group>
+  </Groups>
+</Academy>
