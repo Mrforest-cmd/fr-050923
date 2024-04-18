@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2024-04-16T15:54:07.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="eBawhaYjcfm66SUB7l01" version="22.1.18" type="device">
+  <diagram name="Page-1" id="t20QH7H2pKGVLQqs7rR4">
+    <mxGraphModel dx="1290" dy="988" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="62w0ruHfYhMtnJOBIH_G-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="62w0ruHfYhMtnJOBIH_G-1" target="62w0ruHfYhMtnJOBIH_G-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62w0ruHfYhMtnJOBIH_G-1" value="Create document object" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="65" y="-61" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62w0ruHfYhMtnJOBIH_G-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="62w0ruHfYhMtnJOBIH_G-2" target="62w0ruHfYhMtnJOBIH_G-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62w0ruHfYhMtnJOBIH_G-2" value="LoadFile" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="67" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62w0ruHfYhMtnJOBIH_G-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="62w0ruHfYhMtnJOBIH_G-4" target="62w0ruHfYhMtnJOBIH_G-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62w0ruHfYhMtnJOBIH_G-4" value="Extract all companies to document" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="65" y="199" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62w0ruHfYhMtnJOBIH_G-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="62w0ruHfYhMtnJOBIH_G-6" target="62w0ruHfYhMtnJOBIH_G-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62w0ruHfYhMtnJOBIH_G-6" value="Print out the information" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="65" y="329" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62w0ruHfYhMtnJOBIH_G-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="415" y="230.5" width="411" height="257" as="geometry" />
+        </mxCell>
+        <mxCell id="62w0ruHfYhMtnJOBIH_G-10" value="Cycle with going over company ID and Name" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="435" y="240" width="371" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="62w0ruHfYhMtnJOBIH_G-11" value="&lt;div&gt;Cycle with going over Employes&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="451" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

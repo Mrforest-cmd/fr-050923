@@ -1,0 +1,7 @@
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp16.04.24\ConsoleApp16.04.24\bin\Debug\ConsoleApp16.04.24.exe.config
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp16.04.24\ConsoleApp16.04.24\bin\Debug\ConsoleApp16.04.24.exe
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp16.04.24\ConsoleApp16.04.24\bin\Debug\ConsoleApp16.04.24.pdb
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp16.04.24\ConsoleApp16.04.24\obj\Debug\ConsoleApp16.04.24.csproj.AssemblyReference.cache
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp16.04.24\ConsoleApp16.04.24\obj\Debug\ConsoleApp16.04.24.csproj.CoreCompileInputs.cache
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp16.04.24\ConsoleApp16.04.24\obj\Debug\ConsoleApp16.04.24.exe
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp16.04.24\ConsoleApp16.04.24\obj\Debug\ConsoleApp16.04.24.pdb
