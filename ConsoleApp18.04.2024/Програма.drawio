@@ -1,0 +1,134 @@
+<mxfile host="app.diagrams.net" modified="2024-04-18T17:08:14.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="1DAo_o38kCr81pSvtKuA" version="24.2.5" type="device">
+  <diagram name="Page-1" id="KZDz-eqRutsr6Q2nJWe6">
+    <mxGraphModel dx="1900" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="30" width="250" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-2" value="&lt;div&gt;Структура файлу&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="30" width="460" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-4" value="&lt;div&gt;Алгоритм&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-5" value="&lt;div&gt;Title: string&lt;/div&gt;&lt;div&gt;Author: string&lt;/div&gt;&lt;div&gt;Genre: string&lt;/div&gt;&lt;div&gt;PublicationYear: int&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="90" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GBnPp30OJpyUSEsh1A-O-6" target="GBnPp30OJpyUSEsh1A-O-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-6" value="&lt;div&gt;Завантажити дані з бази данних&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="30" width="460" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-8" value="Програма" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-10" value="Функція AddBook():&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Отримати дані про книгу (назва, автор, жанр, рік публікації) від користувача&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Створити новий об&#39;єкт Book з отриманими даними&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Додати новий об&#39;єкт Book до списку книг&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Викликати функцію SaveBooksToFile() для збереження списку книг у JSON файл&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Вивести повідомлення про успішне додавання книги&lt;br&gt;&lt;br&gt;Функція EditBook():&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Отримати назву книги для редагування від користувача&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Знайти книгу в списку книг за назвою&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Якщо книга знайдена:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Отримати нові дані для редагування (назва, автор, жанр, рік публікації) від користувача&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Оновити властивості книги з новими даними&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Викликати функцію SaveBooksToFile() для збереження списку книг у JSON файл&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Вивести повідомлення про успішне редагування книги&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Інакше:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Вивести повідомлення, що книга не знайдена&lt;br&gt;&lt;br&gt;Функція DeleteBook():&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Отримати назву книги для видалення від користувача&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Знайти книгу в списку книг за назвою&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Якщо книга знайдена:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Видалити книгу зі списку книг&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Викликати функцію SaveBooksToFile() для збереження списку книг у JSON файл&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Вивести повідомлення про успішне видалення книги&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Інакше:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Вивести повідомлення, що книга не знайдена&lt;br&gt;&lt;br&gt;Функція SearchBooks():&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Отримати критерії пошуку (назва, автор, жанр або рік публікації) від користувача&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Знайти книги в списку, що відповідають критеріям&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Вивести знайдені книги&lt;br&gt;&lt;br&gt;Функція ViewAllBooks():&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Вивести всі книги зі списку&lt;br&gt;&lt;br&gt;Функція LoadBooksFromFile():&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Перевірити, чи існує JSON файл&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Якщо файл існує:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Прочитати вміст файлу&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Десеріалізувати JSON дані у список книг&lt;br&gt;&lt;br&gt;Функція SaveBooksToFile():&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Серіалізувати список книг у JSON формат&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Записати JSON дані у файл" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="70" width="440" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GBnPp30OJpyUSEsh1A-O-11" target="GBnPp30OJpyUSEsh1A-O-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GBnPp30OJpyUSEsh1A-O-11" target="GBnPp30OJpyUSEsh1A-O-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GBnPp30OJpyUSEsh1A-O-11" target="GBnPp30OJpyUSEsh1A-O-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GBnPp30OJpyUSEsh1A-O-11" target="GBnPp30OJpyUSEsh1A-O-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GBnPp30OJpyUSEsh1A-O-11" target="GBnPp30OJpyUSEsh1A-O-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GBnPp30OJpyUSEsh1A-O-11" target="GBnPp30OJpyUSEsh1A-O-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-11" value="&lt;div&gt;Вибір користувача&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GBnPp30OJpyUSEsh1A-O-13" target="GBnPp30OJpyUSEsh1A-O-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-80" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-13" value="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="180" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GBnPp30OJpyUSEsh1A-O-14" target="GBnPp30OJpyUSEsh1A-O-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-14" value="3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GBnPp30OJpyUSEsh1A-O-15" target="GBnPp30OJpyUSEsh1A-O-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="460" />
+              <mxPoint x="180" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-15" value="4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GBnPp30OJpyUSEsh1A-O-16" target="GBnPp30OJpyUSEsh1A-O-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-16" value="5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GBnPp30OJpyUSEsh1A-O-17" target="GBnPp30OJpyUSEsh1A-O-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-17" value="6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="180" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="GBnPp30OJpyUSEsh1A-O-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="230" as="sourcePoint" />
+            <mxPoint x="-40" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="400" />
+              <mxPoint x="-80" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-19" value="2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="GBnPp30OJpyUSEsh1A-O-16" target="GBnPp30OJpyUSEsh1A-O-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-30" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Отримати дані про книгу (назва, автор, жанр, рік публікації)&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Створити новий об&#39;єкт Book з отриманими даними&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Додати новий об&#39;єкт Book до списку книг&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Зберегти список книг у JSON файл&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="250" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-32" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;Отримати назву книги для редагування&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Знайти книгу в списку книг за назвою&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Якщо книга знайдена:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Отримати нові дані для редагування (назва, автор, жанр, рік публікації)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Оновити властивості книги з новими даними&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Зберегти список книг у JSON файл&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Інакше:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Повідомити, що книга не знайдена&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="450" width="120" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-34" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;Отримати назву книги для видалення&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Знайти книгу в списку книг за назвою&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Якщо книга знайдена:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Видалити книгу зі списку книг&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Зберегти список книг у JSON файл&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Інакше:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Повідомити, що книга не знайдена&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="490" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-36" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;Отримати критерії пошуку (назва, автор, жанр або рік публікації)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Знайти книги в списку, що відповідають критеріям&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Вивести знайдені книги&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="490" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-39" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Вивести всі книги зі списку&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GBnPp30OJpyUSEsh1A-O-41" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Вийти з циклу&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

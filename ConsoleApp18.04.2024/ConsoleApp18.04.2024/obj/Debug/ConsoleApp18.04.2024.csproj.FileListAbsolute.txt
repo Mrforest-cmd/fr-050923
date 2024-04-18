@@ -1,0 +1,10 @@
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp18.04.2024\ConsoleApp18.04.2024\bin\Debug\ConsoleApp18.04.2024.exe.config
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp18.04.2024\ConsoleApp18.04.2024\bin\Debug\ConsoleApp18.04.2024.exe
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp18.04.2024\ConsoleApp18.04.2024\bin\Debug\ConsoleApp18.04.2024.pdb
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp18.04.2024\ConsoleApp18.04.2024\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp18.04.2024\ConsoleApp18.04.2024\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp18.04.2024\ConsoleApp18.04.2024\obj\Debug\ConsoleApp18.04.2024.csproj.AssemblyReference.cache
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp18.04.2024\ConsoleApp18.04.2024\obj\Debug\ConsoleApp18.04.2024.csproj.CoreCompileInputs.cache
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp18.04.2024\ConsoleApp18.04.2024\obj\Debug\ConsoleApp18.04.2024.csproj.CopyComplete
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp18.04.2024\ConsoleApp18.04.2024\obj\Debug\ConsoleApp18.04.2024.exe
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp18.04.2024\ConsoleApp18.04.2024\obj\Debug\ConsoleApp18.04.2024.pdb
