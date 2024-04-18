@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.IO;
+using System.Linq;
 
 namespace LibraryManagementSystem
 {
@@ -9,10 +10,12 @@ namespace LibraryManagementSystem
     {
         private static List<Book> books = new List<Book>();
         private static string filePath = "books.json";
+        private static int nextId = 1;
 
         static void Main(string[] args)
         {
             LoadBooksFromFile();
+            NextIdInitialization();
             bool exit = false;
 
             while (!exit)
@@ -32,7 +35,8 @@ namespace LibraryManagementSystem
             Console.WriteLine("3. Delete a book");
             Console.WriteLine("4. Search for books");
             Console.WriteLine("5. View all books");
-            Console.WriteLine("6. Exit");
+            Console.WriteLine("6. Read a book");
+            Console.WriteLine("7. Exit");
             Console.Write("Enter your choice: ");
         }
 
@@ -61,6 +65,9 @@ namespace LibraryManagementSystem
                     ViewAllBooks();
                     break;
                 case 6:
+                    OpenBook();
+                    break;
+                case 7:
                     Console.WriteLine("Exiting...");
                     break;
                 default:
@@ -68,7 +75,22 @@ namespace LibraryManagementSystem
                     break;
             }
         }
+        static void OpenBook()
+        {
+            Console.Write("Enter the title of the book you want to open: ");
+            string title = Console.ReadLine();
 
+            Book bookToOpen = books.Find(b => b.Title == title);
+
+            if (bookToOpen != null)
+            {
+                bookToOpen.ReadBook();
+            }
+            else
+            {
+                Console.WriteLine("Book not found.");
+            }
+        }
         static void AddBook()
         {
             Console.Write("Enter book title: ");
@@ -80,13 +102,22 @@ namespace LibraryManagementSystem
             Console.Write("Enter publication year: ");
             int publicationYear = int.Parse(Console.ReadLine());
 
+            string filePath = $"{title}.txt";
+
             Book newBook = new Book
             {
+                Id = nextId++,
                 Title = title,
                 Author = author,
                 Genre = genre,
-                PublicationYear = publicationYear
+                PublicationYear = publicationYear,
+                FilePath = filePath
             };
+
+            if (!File.Exists(filePath))
+            {
+                File.Create(filePath).Close();
+            }
 
             books.Add(newBook);
             SaveBooksToFile();
@@ -183,7 +214,7 @@ namespace LibraryManagementSystem
                 Console.WriteLine("All books in the library:");
                 foreach (Book book in books)
                 {
-                    Console.WriteLine($"Title: {book.Title}, Author: {book.Author}, Genre: {book.Genre}, Publication Year: {book.PublicationYear}");
+                    Console.WriteLine($"Id: {book.Id}, Title: {book.Title}, Author: {book.Author}, Genre: {book.Genre}, Publication Year: {book.PublicationYear}");
                 }
             }
             else
@@ -206,6 +237,10 @@ namespace LibraryManagementSystem
             string json = JsonConvert.SerializeObject(books, Formatting.Indented);
             File.WriteAllText(filePath, json);
         }
+        static void NextIdInitialization()
+        {
+            nextId = books.Count > 0 ? books.Max(b => b.Id) + 1 : 1;
+        }
     }
 
     class Book
@@ -214,5 +249,19 @@ namespace LibraryManagementSystem
         public string Author { get; set; }
         public string Genre { get; set; }
         public int PublicationYear { get; set; }
+        public int Id { get; set; }
+        public string FilePath { get; set; }
+        public void ReadBook()
+        {
+            if (File.Exists(FilePath))
+            {
+                string content = File.ReadAllText(FilePath);
+                Console.WriteLine(content);
+            }
+            else
+            {
+                Console.WriteLine($"The file for {Title} does not exist.");
+            }
+        }
     }
 }

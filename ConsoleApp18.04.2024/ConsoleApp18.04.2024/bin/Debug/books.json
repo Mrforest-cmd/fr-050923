@@ -1,8 +1,10 @@
 [
   {
-    "Title": "мяу",
-    "Author": "котик",
-    "Genre": "мурр",
-    "PublicationYear": 1918
+    "Title": "Meow",
+    "Author": "kotik",
+    "Genre": "SCI-FI",
+    "PublicationYear": 1984,
+    "Id": 1,
+    "FilePath": "Meow.txt"
   }
 ]
