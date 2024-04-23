@@ -1,0 +1,10 @@
+C:\Users\Echo\Desktop\ConsoleApp23.04.24\ConsoleApp23.04.24\bin\Debug\ConsoleApp23.04.24.exe.config
+C:\Users\Echo\Desktop\ConsoleApp23.04.24\ConsoleApp23.04.24\bin\Debug\ConsoleApp23.04.24.exe
+C:\Users\Echo\Desktop\ConsoleApp23.04.24\ConsoleApp23.04.24\bin\Debug\ConsoleApp23.04.24.pdb
+C:\Users\Echo\Desktop\ConsoleApp23.04.24\ConsoleApp23.04.24\obj\Debug\ConsoleApp23.04.24.csproj.AssemblyReference.cache
+C:\Users\Echo\Desktop\ConsoleApp23.04.24\ConsoleApp23.04.24\obj\Debug\ConsoleApp23.04.24.csproj.CoreCompileInputs.cache
+C:\Users\Echo\Desktop\ConsoleApp23.04.24\ConsoleApp23.04.24\obj\Debug\ConsoleApp23.04.24.exe
+C:\Users\Echo\Desktop\ConsoleApp23.04.24\ConsoleApp23.04.24\obj\Debug\ConsoleApp23.04.24.pdb
+C:\Users\Echo\Desktop\ConsoleApp23.04.24\ConsoleApp23.04.24\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Echo\Desktop\ConsoleApp23.04.24\ConsoleApp23.04.24\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Echo\Desktop\ConsoleApp23.04.24\ConsoleApp23.04.24\obj\Debug\ConsoleApp23.04.24.csproj.CopyComplete
