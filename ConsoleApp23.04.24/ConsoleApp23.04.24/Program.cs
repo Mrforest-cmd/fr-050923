@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Text;
 using System.Xml.Linq;
@@ -166,6 +167,9 @@ class Program
 
     static void CreateCharacter()
     {
+        Process.Start("Server.exe");
+        Process.Start("RobzibSSS.exe");
+
         Console.Write("Введіть ім'я персонажа: ");
         string name = Console.ReadLine();
 
