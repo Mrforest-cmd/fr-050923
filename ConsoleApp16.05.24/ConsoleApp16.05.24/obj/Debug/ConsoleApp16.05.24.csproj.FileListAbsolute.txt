@@ -1,0 +1,2 @@
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp16.05.24\ConsoleApp16.05.24\obj\Debug\ConsoleApp16.05.24.csproj.AssemblyReference.cache
+C:\Users\Echo\Documents\GitHub\Classwork\ConsoleApp16.05.24\ConsoleApp16.05.24\obj\Debug\ConsoleApp16.05.24.csproj.CoreCompileInputs.cache
