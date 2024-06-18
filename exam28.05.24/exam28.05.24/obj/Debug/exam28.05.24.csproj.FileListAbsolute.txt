@@ -1,0 +1,7 @@
+C:\Users\Echo\Documents\GitHub\Classwork\exam28.05.24\exam28.05.24\bin\Debug\exam28.05.24.exe.config
+C:\Users\Echo\Documents\GitHub\Classwork\exam28.05.24\exam28.05.24\bin\Debug\exam28.05.24.exe
+C:\Users\Echo\Documents\GitHub\Classwork\exam28.05.24\exam28.05.24\bin\Debug\exam28.05.24.pdb
+C:\Users\Echo\Documents\GitHub\Classwork\exam28.05.24\exam28.05.24\obj\Debug\exam28.05.24.csproj.AssemblyReference.cache
+C:\Users\Echo\Documents\GitHub\Classwork\exam28.05.24\exam28.05.24\obj\Debug\exam28.05.24.csproj.CoreCompileInputs.cache
+C:\Users\Echo\Documents\GitHub\Classwork\exam28.05.24\exam28.05.24\obj\Debug\exam28.05.24.exe
+C:\Users\Echo\Documents\GitHub\Classwork\exam28.05.24\exam28.05.24\obj\Debug\exam28.05.24.pdb
