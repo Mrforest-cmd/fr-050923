@@ -1,0 +1,10 @@
+C:\Users\Echo\Documents\GitHub\Classwork\cw180624_2\cw180624_2\bin\Debug\cw180624_2.exe.config
+C:\Users\Echo\Documents\GitHub\Classwork\cw180624_2\cw180624_2\bin\Debug\cw180624_2.exe
+C:\Users\Echo\Documents\GitHub\Classwork\cw180624_2\cw180624_2\bin\Debug\cw180624_2.pdb
+C:\Users\Echo\Documents\GitHub\Classwork\cw180624_2\cw180624_2\obj\Debug\cw180624_2.csproj.AssemblyReference.cache
+C:\Users\Echo\Documents\GitHub\Classwork\cw180624_2\cw180624_2\obj\Debug\cw180624_2.Form1.resources
+C:\Users\Echo\Documents\GitHub\Classwork\cw180624_2\cw180624_2\obj\Debug\cw180624_2.Properties.Resources.resources
+C:\Users\Echo\Documents\GitHub\Classwork\cw180624_2\cw180624_2\obj\Debug\cw180624_2.csproj.GenerateResource.cache
+C:\Users\Echo\Documents\GitHub\Classwork\cw180624_2\cw180624_2\obj\Debug\cw180624_2.csproj.CoreCompileInputs.cache
+C:\Users\Echo\Documents\GitHub\Classwork\cw180624_2\cw180624_2\obj\Debug\cw180624_2.exe
+C:\Users\Echo\Documents\GitHub\Classwork\cw180624_2\cw180624_2\obj\Debug\cw180624_2.pdb
