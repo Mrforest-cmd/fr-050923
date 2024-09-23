@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_16._09._24WPF3"
         mc:Ignorable="d"
-        Title="Krestiki-noliki" Height="350" Width="350">
+        Title="Krestiki-noliki" Height="400" Width="350">
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
@@ -18,15 +19,19 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <Button x:Name="Btn1" Click="Button_Click" Grid.Row="0" Grid.Column="0" FontSize="36" />
-        <Button x:Name="Btn2" Click="Button_Click" Grid.Row="0" Grid.Column="1" FontSize="36" />
-        <Button x:Name="Btn3" Click="Button_Click" Grid.Row="0" Grid.Column="2" FontSize="36" />
-        <Button x:Name="Btn4" Click="Button_Click" Grid.Row="1" Grid.Column="0" FontSize="36" />
-        <Button x:Name="Btn5" Click="Button_Click" Grid.Row="1" Grid.Column="1" FontSize="36" />
-        <Button x:Name="Btn6" Click="Button_Click" Grid.Row="1" Grid.Column="2" FontSize="36" />
-        <Button x:Name="Btn7" Click="Button_Click" Grid.Row="2" Grid.Column="0" FontSize="36" />
-        <Button x:Name="Btn8" Click="Button_Click" Grid.Row="2" Grid.Column="1" FontSize="36" />
-        <Button x:Name="Btn9" Click="Button_Click" Grid.Row="2" Grid.Column="2" FontSize="36" />
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,10">
+            <Button x:Name="BtnPlayerVsPlayer" Content="Гравець проти Гравця" Click="BtnPlayerVsPlayer_Click" Margin="0,0,10,0" />
+            <Button x:Name="BtnPlayerVsBot" Content="Гравець проти Бота" Click="BtnPlayerVsBot_Click" />
+        </StackPanel>
+
+        <Button x:Name="Btn1" Click="Button_Click" Grid.Row="1" Grid.Column="0" FontSize="36" />
+        <Button x:Name="Btn2" Click="Button_Click" Grid.Row="1" Grid.Column="1" FontSize="36" />
+        <Button x:Name="Btn3" Click="Button_Click" Grid.Row="1" Grid.Column="2" FontSize="36" />
+        <Button x:Name="Btn4" Click="Button_Click" Grid.Row="2" Grid.Column="0" FontSize="36" />
+        <Button x:Name="Btn5" Click="Button_Click" Grid.Row="2" Grid.Column="1" FontSize="36" />
+        <Button x:Name="Btn6" Click="Button_Click" Grid.Row="2" Grid.Column="2" FontSize="36" />
+        <Button x:Name="Btn7" Click="Button_Click" Grid.Row="3" Grid.Column="0" FontSize="36" />
+        <Button x:Name="Btn8" Click="Button_Click" Grid.Row="3" Grid.Column="1" FontSize="36" />
+        <Button x:Name="Btn9" Click="Button_Click" Grid.Row="3" Grid.Column="2" FontSize="36" />
     </Grid>
 </Window>
-

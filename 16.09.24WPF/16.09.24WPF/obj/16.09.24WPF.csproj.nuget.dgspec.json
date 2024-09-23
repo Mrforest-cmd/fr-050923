@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lehan\\Desktop\\16.09.24WPF\\16.09.24WPF\\16.09.24WPF.csproj": {}
+    "C:\\Users\\lehan\\OneDrive\\Документы\\GitHub\\fr-050923\\16.09.24WPF\\16.09.24WPF\\16.09.24WPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lehan\\Desktop\\16.09.24WPF\\16.09.24WPF\\16.09.24WPF.csproj": {
+    "C:\\Users\\lehan\\OneDrive\\Документы\\GitHub\\fr-050923\\16.09.24WPF\\16.09.24WPF\\16.09.24WPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lehan\\Desktop\\16.09.24WPF\\16.09.24WPF\\16.09.24WPF.csproj",
+        "projectUniqueName": "C:\\Users\\lehan\\OneDrive\\Документы\\GitHub\\fr-050923\\16.09.24WPF\\16.09.24WPF\\16.09.24WPF.csproj",
         "projectName": "16.09.24WPF",
-        "projectPath": "C:\\Users\\lehan\\Desktop\\16.09.24WPF\\16.09.24WPF\\16.09.24WPF.csproj",
+        "projectPath": "C:\\Users\\lehan\\OneDrive\\Документы\\GitHub\\fr-050923\\16.09.24WPF\\16.09.24WPF\\16.09.24WPF.csproj",
         "packagesPath": "C:\\Users\\lehan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lehan\\Desktop\\16.09.24WPF\\16.09.24WPF\\obj\\",
+        "outputPath": "C:\\Users\\lehan\\OneDrive\\Документы\\GitHub\\fr-050923\\16.09.24WPF\\16.09.24WPF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
